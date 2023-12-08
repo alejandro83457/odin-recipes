@@ -5,6 +5,45 @@
     font-size: 20px;
 }
 
+/* index.html styles*/
+.index-title {
+    text-align: center;
+    font-size: 50px;
+}
+.index-ul {
+    display: flex;
+    padding: 0;
+}
+.index-li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+/* Styling for custom link/button look */
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+.index-li :hover {
+    background-color: rgb(208, 205, 205);
+}
+
+/* Styling for index page overview */
+.index-overview {
+    background-color: rgb(208, 205, 205);
+}
+.index-overview h2 {
+    background-color: transparent;
+    padding: 20px;
+}
+.index-overview p {
+    background-color: transparent;
+    padding: 20px;
+    margin: 0px;
+}
+
+/* Other styling */
 .title,
 .subtitle {
     text-align: center;
